@@ -1,1 +1,16 @@
+PACTUS 1.1.0 GÜNCELLEME
+```
+cd
+curl --proto '=https' --tlsv1.2 -sSL https://github.com/pactus-project/pactus/releases/download/v1.1.0/pactus_downloader.sh | sh
+
+`Screen'e girelim.`
+`screen -r pactus`
+
+`Ardından CTRL+C ile durduralım.`
+```
+cd
+cd pactus-cli_1.1.0
+./pactus-daemon start -w ~/pactus
+```
+Daha sonra ctrl ad ile çıkalım
 
