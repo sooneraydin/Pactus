@@ -1,5 +1,5 @@
 
-<h1 align="center"> Pactus Testnet</h1>
+<h1 align="center"> Pactus Mainnet</h1>
 
 <div align="center">
 
