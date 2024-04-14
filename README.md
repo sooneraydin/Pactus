@@ -9,20 +9,6 @@
 
 </div>
 
-<h1 align="center">Pactus</h1>
-
-- `500 kişi` ile sınırlı idi 500 ilave geldi
-- Ödül `100 PAC` tokenidir.
-
-
-
-<h1 align="center">Donanım</h1>
-
-- 8080 portunu kullanıyor
-
-
-### Minimum
-1 CPU 1 RAM - Ubuntu 22
 
 ### Port kontrol
 ```
@@ -35,9 +21,9 @@ lsof -i -P -n | grep LISTEN
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install screen
 
-curl --proto '=https' --tlsv1.2 -sSL  https://github.com/pactus-project/pactus/releases/download/v0.16.0/pactus_downloader.sh | sh
+curl --proto '=https' --tlsv1.2 -sSL  https://github.com/pactus-project/pactus/releases/download/v1.0.0/pactus_downloader.sh | sh
 
-cd pactus-cli_0.16.0
+cd pactus-cli_1.0.0
 
 ### 12 kelimenizi alın ve şifrenizi yedekleyin.
 ./pactus-daemon init -w ~/pactus --testnet
