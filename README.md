@@ -26,20 +26,13 @@ curl --proto '=https' --tlsv1.2 -sSL  https://github.com/pactus-project/pactus/r
 cd pactus-cli_1.0.0
 
 ### 12 kelimenizi alın ve şifrenizi yedekleyin.
-./pactus-daemon init -w ~/pactus --testnet
+./pactus-daemon init -w ~/pactus 
 # 7 sayısına enter diyin - çıktıyı yedekleyin
 
 screen -S pactus
 ./pactus-daemon start -w ~/pactus
 ```
-### sync olmasını bekleyin
-explorer: https://explorer.codeblocklabs.com/pactus/validator.php
 
-- Sync olduktan sonra 1. validatör adresine token isteyin.
-
-- reward adreslerinin ilkinde kazançlar zamanla gorulmeye baslanıcak ve artıcak
-
-- Bu aşamada bu adresinize otomatik `delege` edilecek ve `discord=validatör` bağlantısı yapılacak
 
 
 
